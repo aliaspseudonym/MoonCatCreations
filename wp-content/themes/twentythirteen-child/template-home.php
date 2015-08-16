@@ -15,7 +15,7 @@ get_header(); ?>
 				</ul>
 		</div>	
 		<div class="lander">
-		<img src="http://localhost/alias/wp-content/uploads/2015/08/blank.png" />
+		<img src="<?php echo home_url('/'); ?>wp-content/uploads/2015/08/blank.png" />
 		</div> <!-- .lander -->
 
 		
