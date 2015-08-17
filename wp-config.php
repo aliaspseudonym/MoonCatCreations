@@ -81,8 +81,8 @@ define ('WP_CACHE', true);
 $currenthost = $_SERVER['HTTP_HOST'];
 $mypos = strpos($currenthost, 'localhost');
 if ($mypos === false) {
-	define ('WP_HOME', 'http://www.mooncatcreations.net');
-	define ('WP_SITEURL', 'http://www.mooncatcreations.net');
+	define ('WP_HOME', 'http://mooncatcreations.net');
+	define ('WP_SITEURL', 'http://mooncatcreations.net');
 } else {
 	define ('WP_HOME', 'http://localhost/mooncatcreations');
 	define ('WP_SITEURL', 'http://localhost/mooncatcreations');
