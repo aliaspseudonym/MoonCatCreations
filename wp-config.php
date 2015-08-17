@@ -88,3 +88,4 @@ if ($mypos === false) {
 	define ('WP_SITEURL', 'http://localhost/mooncatcreations');
 }
 require_once(ABSPATH . 'wp-settings.php');
+
